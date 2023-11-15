@@ -1,12 +1,12 @@
 # Description
-It's systemd service which runs in background.\
-It turns off the monitor screen each time screen locked (either manually or automatically).
+It's a systemd service which runs in background. It listens for screen lock dbus events and \
+turns off the monitor screen each time screen locked (either manually or automatically).
 
 I created and use it with LG OLED TV to prevent burn in but will work the same with OLED monitors and laptops.
 
 Service works both on X11 and Wayland.\
 It's much more useful on wayland though because KDE lock screen always displays mouse cursor\
-and there is no way to hide it
+and there is no way to hide it.
 
 # Limitations
 Service works only in kde because it uses kde powerdevil to turn off the screen.\
