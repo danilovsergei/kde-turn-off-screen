@@ -8,10 +8,7 @@ cd $build_dir
 go build -ldflags="-s -w" -o bin/kde-turn-off-screen-temp
 
 cp -f install.sh bin/
-chmod +x bin/install.sh
 cp systemd/kde-turn-off-screen.service bin/
-
-cp -fr systemd bin/
 
 cd bin
 if [ ! -f "rce-execve" ]; then
@@ -27,6 +24,9 @@ fi
 
 mv "rce-execve" kde-turn-off-screen
 rm kde-turn-off-screen-temp
+
+chmod +x kde-turn-off-screen
+chmod +x install.sh
 
 
 
