@@ -22,7 +22,7 @@ My use case is to typically press hotkey to lock the screen which triggers turni
 I also have automatic screen lock in KDE setup , which also triggers screen turn off in case i forgot to lock.
 
 # Installation
-Run the install.sh that will install [kde-turn-off-screen](https://github.com/danilovsergei/kde-turn-off-screen/releases/latest/download/kde-turn-off-screen) into "$HOME/bin" or provide your own bin dir.\
+Run the install.sh below that will install [kde-turn-off-screen](https://github.com/danilovsergei/kde-turn-off-screen/releases/latest/download/kde-turn-off-screen) into "$HOME/bin" or provide your own bin dir.\
 It will also download and start [kde-turn-off-screen.service](https://github.com/danilovsergei/kde-turn-off-screen/releases/latest/download/kde-turn-off-screen.service) systemd user service with correct bin dir location your provided.
 
 ```
