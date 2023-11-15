@@ -1,0 +1,10 @@
+[Unit]
+Description=Turns off screen in kde after screen lock dbus event triggered
+
+[Service]
+Type=simple
+# TODO <bin_dir> must be replaced with real bin directory script installed
+ExecStart=<bin_dir>/kde-turn-off-screen
+
+[Install]
+WantedBy=graphical-session.target
