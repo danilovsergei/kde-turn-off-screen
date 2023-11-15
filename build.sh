@@ -7,7 +7,6 @@ cd $build_dir
 
 go build -ldflags="-s -w" -o bin/kde-turn-off-screen-temp
 
-cp -f install.sh bin/
 cp systemd/kde-turn-off-screen.service bin/
 
 cd bin
