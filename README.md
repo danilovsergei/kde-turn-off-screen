@@ -28,6 +28,7 @@ It will also download and start [kde-turn-off-screen.service](https://github.com
 ```
 bash -c "$(curl -L https://raw.githubusercontent.com/danilovsergei/kde-turn-off-screen/main/install.sh)" -- "$HOME/bin"
 ```
+That's it! service is ready to use.
 
 Or manually:
 * download latest [kde-turn-off-screen](https://github.com/danilovsergei/kde-turn-off-screen/releases/latest/download/kde-turn-off-screen) binary and save it to your scripts dir\
